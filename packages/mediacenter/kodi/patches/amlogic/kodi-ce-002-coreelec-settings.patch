@@ -1,0 +1,20 @@
+diff --git a/addons/skin.estuary/media/icons/settings/coreelec.png b/addons/skin.estuary/media/icons/settings/coreelec.png
+new file mode 100644
+index 0000000..0010142
+Binary files /dev/null and b/addons/skin.estuary/media/icons/settings/coreelec.png differ
+diff --git a/addons/skin.estuary/xml/Settings.xml b/addons/skin.estuary/xml/Settings.xml
+index 18ad102..4b008b6 100644
+--- a/addons/skin.estuary/xml/Settings.xml
++++ b/addons/skin.estuary/xml/Settings.xml
+@@ -112,9 +112,9 @@
+ 						<icon>icons/settings/system.png</icon>
+ 					</item>
+ 					<item>
+-						<label>LibreELEC</label>
++						<label>CoreELEC</label>
+ 						<onclick>RunAddon(service.libreelec.settings)</onclick>
+-						<icon>icons/settings/libreelec.png</icon>
++						<icon>icons/settings/coreelec.png</icon>
+ 						<visible>System.HasAddon(service.libreelec.settings)</visible>
+ 					</item>
+ 				</content>
